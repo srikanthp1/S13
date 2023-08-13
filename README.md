@@ -34,9 +34,9 @@ Uses [matplotlib](https://matplotlib.org/)  for ploting accuracy and losses.
 
 ### accuracy 
 
- * Class accuracy is: 73.040520%
+ * Class accuracy is: 81.040520%
  * No obj accuracy is: 97.752090%
- * Obj accuracy is: 69.856880%
+ * Obj accuracy is: 76.026880%
 
 ## Usage
 
