@@ -1,4 +1,4 @@
-# Image classification - CIFAR add.
+# Object Detection - pascalvoc add.
 
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/), 
 [PyTorch](https://pytorch.org/), 
@@ -7,7 +7,7 @@ Uses [matplotlib](https://matplotlib.org/)  for ploting accuracy and losses.
 
 ## Info
 
- * we are training our custom resnet model on pascal_voc dataset. 
+ * we are training our yolov3 model on pascal_voc dataset. 
  * we are using a custom YOLO which includes skip connections etc
  * Implemented in pytorch 
  * in this repo, i am exporing pytorch-lightning. by using this model that we train i am going to publish space app.
@@ -34,16 +34,16 @@ Uses [matplotlib](https://matplotlib.org/)  for ploting accuracy and losses.
 
 ### accuracy 
 
- * Class accuracy is: 83.040520%
+ * Class accuracy is: 81.040520%
  * No obj accuracy is: 97.752090%
- * Obj accuracy is: 77.026880%
+ * Obj accuracy is: 76.026880%
 
 ## Usage
 
 ```bash
 git clone https://github.com/srikanthp1/S13.git
 ```
-* notebook for pytorch_lightning
+* notebook for pytorch_lightning - https://drive.google.com/file/d/1QVM6N4nOrxbCGrN62I1i6OYkfYGwUXzd/view?usp=drive_link (training notebook is in this drive link)
 
 
 ## Model details
